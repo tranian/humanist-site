@@ -4,6 +4,16 @@ h1 {
 	text-align: center;
 }
 
+h6 {
+	font-family: Arial;
+	text-align: center;
+	font-size: 70%;
+	margin-top: 0;
+	margin-bottom: 0;
+
+}
+
+
 p {
 	font-family: Tahoma;
 }
@@ -14,8 +24,20 @@ a {
 	color: #B30C02;
 }
 
+table, th, td {
+	border: 1px solid black;
+	background-color: white;
+}
+
+img {
+	width: auto;
+	height: auto;
+}
+
 
 /* div definitions go here */
+
+
 
 .footer {
 	background-color: black;
@@ -58,7 +80,6 @@ a {
 	font-size: large;
 	background-color: #597a15;
 	color: white;
-	top: 50%;
 	text-align: center;
 	padding: 10px 40px;
 	margin: 20px;
@@ -66,9 +87,20 @@ a {
 
 .button:hover {
 	background-color: white;
-	color: #597a15;
+	color: #B30c02;
 	transition-duration: .2s;
 }
 .center-l {
 	padding-top: 7px;
 }
+
+.tiny {
+	font-size:65%;
+}
+
+.b-link {
+	width: auto;
+	height: auto;
+	text-align: initial;
+}
+
