@@ -56,17 +56,18 @@ a {
 }
 .button {
 	font-size: large;
-	background-color: black;
+	background-color: #597a15;
 	color: white;
 	top: 50%;
 	text-align: center;
 	padding: 10px 40px;
+	margin: 20px;
 }
 
 .button:hover {
 	background-color: white;
-	color: black;
-	transition-duration: .5s;
+	color: #597a15;
+	transition-duration: .2s;
 }
 .center-l {
 	padding-top: 7px;
