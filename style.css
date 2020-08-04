@@ -1,11 +1,73 @@
-body {
-	background-color: white;
-}
 h1 {
-	color: black;
+	font-family: Arial;
+	color: #106939;
 	text-align: center;
 }
 
 p {
-	font-family: verdana;
+	font-family: Tahoma;
+}
+
+a {
+	font-family: Tahoma;
+	font-weight: bold;
+	color: #B30C02;
+}
+
+
+/* div definitions go here */
+
+.footer {
+	background-color: black;
+	color: white;
+	position: fixed;
+	text-align: center;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
+}
+
+.center {
+	text-align: center;
+}
+
+
+.center-frame {
+	text-align: center;
+	display: block;
+}
+
+.header {
+	text-align: center;
+	display: block;
+}
+
+.bb {
+
+	text-align: center;
+	display: block;
+
+}
+
+.links {
+	text-align: center;
+	display: block;
+}
+.button {
+	font-size: large;
+	background-color: black;
+	color: white;
+	top: 50%;
+	text-align: center;
+	padding: 10px 40px;
+}
+
+.button:hover {
+	background-color: white;
+	color: black;
+	transition-duration: .5s;
+}
+.center-l {
+	padding-top: 7px;
 }
