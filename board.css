@@ -1,0 +1,40 @@
+body {
+	background: #efe;
+	color: #008000;
+	font-family: sans-serif;
+	font-size: 13px;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+p {
+	font-size: 20px;
+}
+a:link, a:visited {
+	color: #0000ff;
+	font-size: inherit;
+	text-decoration: inherit;
+}
+
+a:link:hover {
+	color: #0000ff;
+	text-decoration: inherit;
+}
+
+
+br {
+	display: block;
+	line-height: 22px;
+	margin: 10px 0;
+}
+
+.post {
+	background: #e0f0d6;
+	padding-top: 30px;
+	padding-right: 50px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+	margin: 20px;
+}
